@@ -10,7 +10,7 @@ from .helpers import clear_window
 
 def render_banner():
 
-    with open("banner.txt", "r") as fh:
+    with open(os.path.join(os.path.dirname(__file__), "assets", "banner.txt"), "r") as fh:
         banner = fh.read()
     print("")
     print("")
