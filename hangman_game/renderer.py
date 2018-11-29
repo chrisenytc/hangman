@@ -9,7 +9,8 @@ from .helpers import clear_window
 
 
 def render_banner():
-    with open("%s/assets/banner.txt" % os.getcwd(), "r") as fh:
+
+    with open("banner.txt", "r") as fh:
         banner = fh.read()
     print("")
     print("")
