@@ -42,14 +42,6 @@ $ pip install hangman_cli
 $ hangman
 ```
 
-## Donate
-
-If you enjoyed **Hangman**, send a donation as a thank you. :)
-
-![Bitcoin](assets/bitcoin-address.png)
-
-**Bitcoin Adddress**: `3QbTQcSfWAUntPwTrWNQ3aHYYmvJS5HoUY`
-
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at [https://github.com/chrisenytc/hangman](https://github.com/chrisenytc/hangman). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
