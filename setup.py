@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="hangman-game",
-    version="1.0.2",
+    version="1.0.3",
     author="Christopher Enytc",
     author_email="chris@enytc.com",
     description="A CLI game built with Python",
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     entry_points={
         'console_scripts': [
-            'hangman = hangman_game.__main__:main'
+            'hangman = hangman_game.__main__'
         ]
     },
     classifiers=[
