@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     entry_points={
         'console_scripts': [
-            'hangman = hangman.__main__:main'
+            'hangman = hangman_cli.__main__:main'
         ]
     },
     classifiers=[
