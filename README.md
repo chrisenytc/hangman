@@ -24,8 +24,8 @@
     . .          `'       . .
 ```
 
-[![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)]() [![License](https://img.shields.io/github/license/chrisenytc/hangman.svg)](https://github.com/chrisenytc/hangman/blob/master/LICENSE) ![PyPI](https://img.shields.io/pypi/v/hangman_cli.svg)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/hangman_cli.svg)
+[![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)]() [![License](https://img.shields.io/github/license/chrisenytc/hangman.svg)](https://github.com/chrisenytc/hangman/blob/master/LICENSE) ![PyPI](https://img.shields.io/pypi/v/hangman-cli.svg)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/hangman-cli.svg)
 [![Twitter Follow](https://img.shields.io/twitter/follow/chrisenytc.svg?style=social&label=Follow)](http://twitter.com/chrisenytc) [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Awesome%20https://github.com/chrisenytc/hangman%20via%20@chrisenytc)
 
 > A CLI game built with Python
@@ -33,7 +33,7 @@
 # Installation
 
 ```bash
-$ pip install hangman_cli
+$ pip install hangman-cli
 ```
 
 # Getting Started
