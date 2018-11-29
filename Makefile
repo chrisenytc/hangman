@@ -3,7 +3,7 @@ setup:
 .PHONY: setup
 
 build:
-	@python setup.py sdist bdist_wheel
+	@rm -rf build dist && python setup.py sdist bdist_wheel
 .PHONY: build
 
 release:
