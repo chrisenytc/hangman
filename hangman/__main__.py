@@ -12,6 +12,6 @@ except Exception as e:
     print_message("An error has occurred during the game: %s" % e)
 except KeyboardInterrupt:
     print("")
-    print("\n    Game closed!")
+    print("\n    Game closed. See you later :)")
     print("")
     exit(0)
