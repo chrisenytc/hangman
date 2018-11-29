@@ -13,4 +13,5 @@ except Exception as e:
 except KeyboardInterrupt:
     print("")
     print("\n    Game closed!")
+    print("")
     exit(0)
