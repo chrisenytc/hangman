@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="hangman_cli",
+    name="hangman-cli",
     version="1.0.0",
     author="Christopher Enytc",
     author_email="chris@enytc.com",
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     entry_points={
         'console_scripts': [
-            'hangman = hangman_cli.__main__:main'
+            'hangman = hangman.__main__:main'
         ]
     },
     classifiers=[
