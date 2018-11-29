@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="hangman-game",
-    version="1.0.5",
+    version="1.0.6",
     author="Christopher Enytc",
     author_email="chris@enytc.com",
     description="A CLI game built with Python",
