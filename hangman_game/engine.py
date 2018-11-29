@@ -46,8 +46,7 @@ def start_round(db, already_started):
         # Set score
         db.set_score()
     # Increase round every call
-    if db.get_round() < len(db.get_word()):
-        db.increase_round()
+    db.increase_round()
     # Render scoreboard
     render_scoreboard(db.get_level(), db.get_round(), db.get_score())
     # Render placeholder
