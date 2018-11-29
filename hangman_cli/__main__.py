@@ -10,3 +10,7 @@ try:
 # Catch exceptions
 except Exception as e:
     print_message("An error has occurred during the game: %s" % e)
+except KeyboardInterrupt:
+    print("")
+    print("\n    Game closed!")
+    exit(0)
